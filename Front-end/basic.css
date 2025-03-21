@@ -1,0 +1,167 @@
+
+.dancing-script-font {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+  }
+  
+*{
+    padding: 0;
+}
+
+/* HEADER STYLES */
+.Navigation-and-logo-container{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    
+    padding: 15px;
+}
+
+.navigation-container ul li {
+    display: inline-block;
+    justify-content: space-between;
+    /* padding: 1px; */
+    
+}
+.navigation-container ul li:not(:last-child)::after {
+    content: " /"; /* Adds the slash between the items */
+    margin-left: 10px; /* Adds space between the link and the slash */
+}
+
+.Navigation-and-logo-container ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Navigation-and-logo-container a {
+        color: black;
+        text-decoration: none; /* Removes underline */
+
+    font-family: "Dancing Script", cursive;
+   
+}
+
+.Title-container{
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+/* MAIN BODY STYLES */
+
+.Container{
+    width: 90%;
+    max-width: 1200px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.Header, .Footer, .Main-Body{
+    padding: 20px;
+    border: 1px solid black; /* Rounded edges */
+    
+}
+.Main-Body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    ;
+
+}
+
+.Projects-column, .Education-column, .Work-experience-column{
+    width: 40%;
+
+    /* padding: 10px; */
+    border: 1px solid black;
+
+}
+
+.Projects-column h2{
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    Font-size: 1rem;
+
+}
+.Projects-column p{
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.Projects-column p:last-child{
+    border-bottom: none;
+    margin-bottom: 100px;
+}
+
+.Work-experience-column h2{
+    font-family: "Dancing Script", cursive;
+    Font-size: 1rem;
+
+    
+}
+.Work-experience, .Open-source-work{
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.Open-source-work{
+    border-bottom: none;
+
+}
+
+.Work-experience a, .Open-source-work a {
+    text-decoration: none; /* Removes the underline */
+    /* font-weight: bold; Optional: Makes the link text bold */
+}
+
+.Education-column{
+    padding: 10px;
+}
+.Education-column h2{
+    font-family: "Dancing Script", cursive;
+    Font-size: 1rem;
+}
+
+.Education-column ul li{
+    list-style:"-" ;
+    
+}
+
+/* FOOTER STYLES */
+.Topic h2{
+    font-family: "Dancing Script", cursive;
+    Font-size: 1rem;
+    padding: 10px;
+}
+
+.Review-boxes {
+    display: flex;
+    gap: 10px; /* Creates a 10px gap between the boxes */
+    justify-content: space-between; /* Distributes boxes evenly across the container */
+}
+
+.Review-box-1, .Review-box-2, .Review-box-3 {
+    border: 2px solid black; /* Black border around each box */
+    padding: 20px; /* Padding inside each box */
+    width: 30%; /* Adjust the width of each box to fit three side by side */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    border-radius: 10px; /* Adds rounded corners to each box */
+}
+
+.Review-box-1 p, .Review-box-2 p, .Review-box-3 p {
+    margin: 10px 0; /* Adds space between paragraphs inside the boxes */
+}
+
+.copyright{
+    text-align: center;
+    padding-top:  100px;
+    padding-bottom: 250px;
+    font-family: "Dancing Script", cursive;
+    Font-size: 1rem;
+}
