@@ -1,0 +1,63 @@
+Mobile Styles
+.Navigation-and-logo-container {
+    flex-direction: column; /* Stack logo and nav vertically */
+    align-items: center;
+    text-align: center;
+}
+
+.navigation-container ul {
+    padding: 0;
+}
+
+.Main-Body {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center;
+}
+
+.Projects-column, .Education-column, .Work-experience-column {
+    width: 100%;/* Full width */
+   /* Space between sections */
+}
+.Projects-column{
+    text-align: center;
+}
+.Education-column{
+    border: none;
+    padding-left: 40px;
+}
+
+.Review-boxes {
+    flex-direction: column; /* Stack review boxes vertically */
+    align-items: center;
+}
+
+.Review-box-1, .Review-box-2, .Review-box-3 {
+    width: 100%; /* Full width */
+    margin-bottom: 10px;
+}
+
+
+    .Navigation-and-logo-container {
+        display: flex;
+        flex-direction: column; /* Stack logo and nav vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .navigation-container ul {
+        display: flex;
+        flex-wrap: wrap; /* Allows wrapping if necessary */
+        justify-content: center; /* Centers the links */
+        gap: 10px; /* Adds space between links */
+        padding: 0;
+        list-style: none;
+    }
+
+    .navigation-container ul li {
+        display: inline-block;
+    }
+
+    h2{
+        text-align: center;
+    }
+
